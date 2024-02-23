@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:pill_pal/pages/bottomNav.dart';
+import 'package:pill_pal/pages/login.dart';
+import 'package:pill_pal/pages/onboard.dart';
+import 'package:pill_pal/themes/theme.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,12 +17,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
-      ),
+      themeMode: ThemeMode.light,
+      theme: EAppTheme.lightTheme,
+      darkTheme: EAppTheme.darkTheme,
       // home: Home(),
-      home: BottomNav(),
+      home: OnboardingScreen(),
     );
   }
 }
