@@ -12,9 +12,9 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
   int _currentPage = 0;
 
   List<String> _imagePaths = [
-    'images/newdelii.png',
-    'images/newdelii.png',
-    'images/newdelii.png',
+    'images/css.png',
+    'images/world.png',
+    'images/helli.png',
   ];
 
   List<String> _headings = [
@@ -61,9 +61,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                         shape: MaterialStateProperty.all<RoundedRectangleBorder>(
                             RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(10),
-                              side: BorderSide(
-                                  color: Colors.yellow
-                              ),
+
                             )
                         )
                     ),
