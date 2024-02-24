@@ -30,8 +30,7 @@ class _BottomNavState extends State<BottomNav> {
     homepage = Home();
     profile = Profile();
     orders = Orders();
-    some = Some();
-    pages = [homepage,some, orders,profile];
+    pages = [homepage, orders,profile];
     super.initState();
   }
 
@@ -62,10 +61,6 @@ class _BottomNavState extends State<BottomNav> {
           items: [
               Icon(
                 Icons.home_outlined,
-                color: Colors.white,
-              ),
-              Icon(
-                Icons.question_mark_outlined,
                 color: Colors.white,
               ),
               Icon(

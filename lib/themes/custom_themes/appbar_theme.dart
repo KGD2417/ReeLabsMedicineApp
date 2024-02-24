@@ -20,7 +20,7 @@ class EAppBarTheme{
       elevation: 0,
       centerTitle: true,
       scrolledUnderElevation: 0,
-      backgroundColor: Colors.transparent,
+      backgroundColor: Color(0xFFB784B7),
       surfaceTintColor: Colors.transparent,
       iconTheme: IconThemeData(color: Colors.black,size: 24),
       actionsIconTheme: IconThemeData(color: Colors.white, size: 24),

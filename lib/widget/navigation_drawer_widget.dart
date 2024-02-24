@@ -12,37 +12,41 @@ class NavigationDrawerWidget extends StatelessWidget {
         padding: EdgeInsets.zero,
         children: [
           UserAccountsDrawerHeader(
-            accountName: const Text('Jidnya Jadhav'),
-            accountEmail: const Text('email@mail.com'),
+            accountName: const Text('Guest'),
+            accountEmail: const Text('guest@mail.com'),
             currentAccountPicture: CircleAvatar(
               child: ClipOval(
                 // child: Image.asset('images/.png'),
               ),
             ),
             decoration: BoxDecoration(
-              color: Colors.pink,
+              color: Color(0xFFB784B7),
               //image: DecorationImage(image: AssetImage('.jpg'), fit: BoxFit.cover)
             ),),
           ListTile(
-            leading: Icon(Icons.file_upload),
-            title: Text('Upload'),
+            leading: Icon(Icons.edit),
+            title: Text('Edit Profile'),
             onTap: () => print('uploaded'),
           ),
+          Divider(),
           ListTile(
-            leading: Icon(Icons.file_upload),
-            title: Text('Upload'),
+            leading: Icon(Icons.handshake),
+            title: Text('Referral'),
             onTap: () => print('uploaded'),
           ),
+          Divider(),
           ListTile(
-            leading: Icon(Icons.file_upload),
-            title: Text('Upload'),
+            leading: Icon(Icons.info),
+            title: Text('About Us'),
             onTap: () => print('uploaded'),
           ),
+          Divider(),
           ListTile(
-            leading: Icon(Icons.file_upload),
-            title: Text('Upload'),
+            leading: Icon(Icons.settings),
+            title: Text('Settings'),
             onTap: () => print('uploaded'),
           ),
+          Divider(),
           ListTile(
             leading: Icon(Icons.logout),
             title: Text('Logout'),
