@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:pill_pal/widget/navigation_drawer_widget.dart';
 
 import '../widget/widget_support.dart';
 
@@ -25,21 +26,6 @@ class _HomeState extends State<Home> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // Row(
-            //   mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            //   children: [
-            //   // Icon(Icons.person_outlined, color:Color(0xFFB784B7))),
-            //   //   Text("Hello jj",
-            //   //     style: AppWidget.boldTextFieldStyle(),
-            //   //   ),
-            //     Container(
-            //       padding: EdgeInsets.all(5),
-            //       decoration: BoxDecoration(color: Color(0xFFB784B7),
-            //           borderRadius: BorderRadius.circular(8)),
-            //       child: Icon(Icons.shopping_cart, color: Colors.white,),
-            //     ),
-            //   ],
-            // ),
             SizedBox(height: 10,),
             Text("PillPal",
               style: AppWidget.headerTextFieldStyle(),
