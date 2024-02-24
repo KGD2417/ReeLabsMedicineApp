@@ -1,0 +1,105 @@
+{
+  "project_info": {
+    "project_number": "586976745111",
+    "project_id": "product-4cc4e",
+    "storage_bucket": "product-4cc4e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586976745111:android:e2d6be3fcb93e6be7afbd2",
+        "android_client_info": {
+          "package_name": "com.example.hackathon"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMDOZG_Syx8kfVRCjdDTqvpY0PCIyy6JI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586976745111:android:54fae38e7f1ead7f7afbd2",
+        "android_client_info": {
+          "package_name": "com.example.hackathon2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMDOZG_Syx8kfVRCjdDTqvpY0PCIyy6JI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586976745111:android:87c19004e89e834f7afbd2",
+        "android_client_info": {
+          "package_name": "com.example.product"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMDOZG_Syx8kfVRCjdDTqvpY0PCIyy6JI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586976745111:android:89d48e574777cd7f7afbd2",
+        "android_client_info": {
+          "package_name": "in.reelabs.pill_buddy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMDOZG_Syx8kfVRCjdDTqvpY0PCIyy6JI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586976745111:android:70d10357af2e39497afbd2",
+        "android_client_info": {
+          "package_name": "in.reelabs.pillpal.pill_pal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMDOZG_Syx8kfVRCjdDTqvpY0PCIyy6JI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
