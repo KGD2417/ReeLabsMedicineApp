@@ -29,8 +29,7 @@ class _BottomNavState extends State<BottomNav> {
     homepage = Home();
     profile = Profile();
     orders = Orders();
-    some = Some();
-    pages = [homepage,some, orders,profile];
+    pages = [homepage, orders,profile];
     super.initState();
   }
 
@@ -39,9 +38,8 @@ class _BottomNavState extends State<BottomNav> {
   {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Hello"),
+        title: Text("Hello Guest"),
         centerTitle: false,
-        elevation: 4,
         actions: [
           IconButton(onPressed: (){}, icon: Icon(Icons.shopping_cart))
           ],
@@ -60,10 +58,6 @@ class _BottomNavState extends State<BottomNav> {
           items: [
               Icon(
                 Icons.home_outlined,
-                color: Colors.white,
-              ),
-              Icon(
-                Icons.question_mark_outlined,
                 color: Colors.white,
               ),
               Icon(

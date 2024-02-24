@@ -44,6 +44,8 @@ dependencies:
   flutter_stripe: ^10.0.0
   firebase_auth: ^4.17.4
   cloud_firestore: ^4.15.5
+  firebase_storage: ^11.6.6
+  image_picker: ^1.0.7
 
 
 
