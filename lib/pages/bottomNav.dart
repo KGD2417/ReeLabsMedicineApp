@@ -3,6 +3,7 @@ import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:pill_pal/pages/profile.dart';
 import 'package:pill_pal/pages/some.dart';
 
+import '../widget/navigation_drawer_widget.dart';
 import 'home.dart';
 import 'orders.dart';
 
@@ -37,6 +38,15 @@ class _BottomNavState extends State<BottomNav> {
   Widget build(BuildContext context)
   {
     return Scaffold(
+      appBar: AppBar(
+        title: Text("Hello"),
+        centerTitle: false,
+        elevation: 4,
+        actions: [
+          IconButton(onPressed: (){}, icon: Icon(Icons.shopping_cart))
+          ],
+      ),
+      drawer: NavigationDrawerWidget(),
       bottomNavigationBar: CurvedNavigationBar (
         height:65,
           backgroundColor: Colors.white,
