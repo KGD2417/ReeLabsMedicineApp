@@ -40,6 +40,11 @@ class _BottomNavState extends State<BottomNav> {
     return Scaffold(
       appBar: AppBar(
         title: Text("Hello"),
+        centerTitle: false,
+        elevation: 4,
+        actions: [
+          IconButton(onPressed: (){}, icon: Icon(Icons.shopping_cart))
+          ],
       ),
       drawer: NavigationDrawerWidget(),
       bottomNavigationBar: CurvedNavigationBar (
