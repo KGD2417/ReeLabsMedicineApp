@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:pill_pal/pages/profile.dart';
+import 'package:pill_pal/pages/shop_cart.dart';
 import 'package:pill_pal/pages/some.dart';
 
 import '../widget/navigation_drawer_widget.dart';
@@ -39,11 +40,12 @@ class _BottomNavState extends State<BottomNav> {
   {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Hello"),
+        title: Text("Hello Guest"),
         centerTitle: false,
-        elevation: 4,
         actions: [
-          IconButton(onPressed: (){}, icon: Icon(Icons.shopping_cart))
+          IconButton(onPressed: (){
+            Navigator.push(context, MaterialPageRoute(builder: (context)=>ShopCart()));
+          }, icon: Icon(Icons.shopping_cart))
           ],
       ),
       drawer: NavigationDrawerWidget(),

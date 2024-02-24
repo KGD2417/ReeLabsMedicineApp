@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:pill_pal/pages/productpage.dart';
 
 class ShopCart extends StatefulWidget {
   const ShopCart({Key? key}) : super(key: key);
@@ -24,7 +25,6 @@ class _ShopCartState extends State<ShopCart> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Shopping Cart'),
-        backgroundColor: Color(0xFFB784B7),
       ),
       body: Column(
         children: [
@@ -76,7 +76,14 @@ class _ShopCartState extends State<ShopCart> {
                     return Padding(
                       padding: const EdgeInsets.all(8.0),
                       child: GestureDetector(
-                        onTap: () {},
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => ProductPage(productName: data['Name']),
+                            ),
+                          );
+                        },
                         child: Container(
                           padding: const EdgeInsets.all(10),
                           decoration: BoxDecoration(
@@ -133,12 +140,7 @@ class _ShopCartState extends State<ShopCart> {
                                         color: Colors.blue,
                                       ),
                                     ),
-                                    Row(
-                                      children: [
-                                        const Icon(Icons.star, color: Colors.yellow),
-                                        Text('${data['AverageRating']}'),
-                                      ],
-                                    ),
+
                                   ],
                                 ),
                               ),
